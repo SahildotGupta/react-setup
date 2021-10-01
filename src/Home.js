@@ -12,8 +12,8 @@ function Home() {
     <div>
       {blogs.map((blog) => (
         <div className="blog-preview" key={blog.id}>
-          {blog.title}
-          {blog.body}
+          <h2>{blog.title}</h2>
+          <p>{blog.body}</p>
         </div>
       ))}
     </div>
